@@ -1,3 +1,3 @@
 s=input('введите текст: ')
-k=s.lower().count('т')+s.lower().count('Т')
+k=s.count('т')+s.count('Т')
 print(k)
