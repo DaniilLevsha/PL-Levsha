@@ -1,7 +1,7 @@
 #1
 n=int(input('введите n ' ))
 sp = [ int(input('введите числа массива ')) for i in range(n) ] 
-print(sp.index(min(sp))) #определение минимального элемента и вывод его индекса
+print(sp.index(min(sp)))
 #2
 sp1=[1,343,-1,-5,543,222,-44]
 sp2=[];sp3=[] 
